@@ -15,7 +15,8 @@
     ],
     "implementationPaths": [
       "WallpaperApp",
-      "WallpaperPlayer"
+      "WallpaperPlayer",
+      "wallpaper_arch.py"
     ],
     "dependsOn": [],
     "acceptanceGates": [
