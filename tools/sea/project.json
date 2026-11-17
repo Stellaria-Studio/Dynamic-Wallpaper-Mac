@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "name": "Dynamic-Wallpaper-Mac",
+  "components": {
+    "project": {
+      "description": "Dynamic-Wallpaper-Mac project infrastructure and repository-owned engineering knowledge.",
+      "paths": [
+        "WallpaperApp",
+        "WallpaperPlayer"
+      ],
+      "approved": [
+        "readme.md"
+      ],
+      "required_files": [
+        "readme.md"
+      ],
+      "build_targets": [],
+      "validation": [],
+      "pitfalls": [
+        "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+      ],
+      "evidence": []
+    }
+  },
+  "build_metadata": []
+}

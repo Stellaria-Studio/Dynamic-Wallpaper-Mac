@@ -1,0 +1,39 @@
+[
+  {
+    "id": "project-architecture",
+    "name": "Dynamic-Wallpaper-Mac architecture",
+    "aliases": [
+      "Dynamic-Wallpaper-Mac",
+      "Dynamic-Wallpaper-Mac",
+      "架构",
+      "职责"
+    ],
+    "intent": "Dynamic-Wallpaper-Mac project infrastructure and repository-owned engineering knowledge.",
+    "qualification": "DECLARED_PROJECT_KNOWLEDGE",
+    "invariants": [
+      "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+    ],
+    "implementationPaths": [
+      "WallpaperApp",
+      "WallpaperPlayer"
+    ],
+    "dependsOn": [],
+    "acceptanceGates": [
+      "source identity",
+      "declared validation is not execution evidence"
+    ],
+    "sources": [
+      {
+        "path": "readme.md",
+        "line": 1,
+        "commit": "28a437fe00a593ed78f75c1c9e43a14e55d5f299"
+      },
+      {
+        "path": "ARCHITECTURE.md",
+        "line": 1,
+        "commit": "28a437fe00a593ed78f75c1c9e43a14e55d5f299"
+      }
+    ],
+    "validation": []
+  }
+]

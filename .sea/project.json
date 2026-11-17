@@ -1,0 +1,35 @@
+{
+  "schema": "stellaria.sea.project.v2",
+  "id": "Stellaria-Studio/Dynamic-Wallpaper-Mac",
+  "name": "Dynamic-Wallpaper-Mac",
+  "repository": "Stellaria-Studio/Dynamic-Wallpaper-Mac",
+  "defaultBranch": "main",
+  "tier": "B",
+  "profile": "knowledge-runtime",
+  "purpose": "Dynamic-Wallpaper-Mac project infrastructure and repository-owned engineering knowledge.",
+  "visibility": "public",
+  "concepts": ".sea/concepts.json",
+  "invariants": [
+    "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+  ],
+  "runtime": {
+    "repository": "Stellaria-Studio/Stellaria-SEA",
+    "version": "2.0.0",
+    "protocol": 2,
+    "sourceCommit": "6207b585ffabb8d182432bb3a03ba4d0a5279aa6"
+  },
+  "legacy": {
+    "definition": "tools/sea/project.json",
+    "history": "read-only; preserve original bytes"
+  },
+  "features": {
+    "contextBroker": true,
+    "architectureRegistry": true,
+    "localTaskCapsules": true,
+    "identityBinding": false,
+    "approvalWorkflow": false,
+    "enforcement": false,
+    "automaticPush": false
+  },
+  "sourceBaseline": "28a437fe00a593ed78f75c1c9e43a14e55d5f299"
+}
